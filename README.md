@@ -1,2 +1,3 @@
-# webpack-ts-babel-lodash
-Weback + TypeScript + Babel + Lodash example project
+# Webpack, TS, Babel, Lodash Example Project
+
+Webpack + TypeScript + Babel + Lodash example project

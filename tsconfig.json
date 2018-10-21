@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "importHelpers": true,
+        "lib": [ "dom", "es5", "es6", "esnext" ],
+
+        "sourceMap": true,
+        "removeComments": true,
+
+        "strict": true,
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "allowSyntheticDefaultImports": false,
+        "forceConsistentCasingInFileNames": true,
+
+        "outDir": "js",
+        "baseUrl": "./",
+    },
+    "include": [
+        "node_modules/@types/**/*.d.ts",
+        "src/**/*.ts",
+        "src/**/*.d.ts"
+    ]
+}
