@@ -1,5 +1,8 @@
 {
     "presets": [
         ["@babel/preset-env", { "shippedProposals": true }]
+    ],
+    "plugins": [
+        "babel-plugin-lodash"
     ]
 }

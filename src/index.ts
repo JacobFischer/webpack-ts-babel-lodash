@@ -11,5 +11,5 @@ for (const key of Object.keys(mapped)) {
     const li = document.createElement("li");
     ul.appendChild(li);
 
-    li.innerHTML = `${key}: ${mapped[key]}`;
+    li.innerHTML = `${key}: ${mapped[Number(key)]}`;
 }
